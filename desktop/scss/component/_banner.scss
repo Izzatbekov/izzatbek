@@ -1,0 +1,43 @@
+.banner{
+ padding-block: 110px 160px;
+    &-content{
+        @include flexCenter;
+        gap: 20px;
+       
+        &-info{
+            @include flex;
+            flex-direction: column;
+            gap: 24px;
+            &-title{
+                color: #1F2E35;
+
+                   font-family: $RB;
+                   font-size: 48px;
+                   line-height: 133.687%; 
+                  
+            }
+            &-text{
+                color: #EE4248;
+                font-family: $RB;
+                font-size: 48px;
+                
+                line-height: 133.687%;      
+            }
+            &-btn{
+                padding: 12px 32px;
+                background-color: red;
+                color: #FFF;
+                font-family: $RR;
+                font-size: 20px;
+                line-height: 144.687%;
+                border-radius: 4px;
+                background: #EE4248;
+                box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.25);
+                width: max-content;
+                cursor: pointer;
+
+            }
+
+        }
+    }
+}

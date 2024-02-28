@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="./output.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Mobile first -->
+    <!-- breakpoint = sinish nuqtalari -->
+
+    <header>
+      <div class="container">
+        <div class="flex items-center justify-between py-[30px]">
+          <a
+            class="font-Inter text-xl font-bold"
+            href="#!"
+            >HotCoffee</a
+          >
+
+          <form class="gap-3 hidden md:flex">
+            <img
+              src="./image/icon/search-icon.svg"
+              width="20"
+              height="20"
+              alt="search-icon" />
+            <input
+              type="search"
+              placeholder="Search..."
+              class="px-4 focus:outline-none placeholder:text-base" />
+          </form>
+
+          <nav class="hidden items-center gap-[30px] md:flex">
+            <a
+              href="#!"
+              class="text-base text-dark-300 font-normal"
+              >Home</a
+            >
+            <a
+              href="#!"
+              class="text-base text-dark-300 font-normal"
+              >Articles</a
+            >
+            <a href="#!">
+              <img
+                src="./image/icon/instagram.svg"
+                width="20"
+                height="20"
+                alt="instagram-icon" />
+            </a>
+            <a href="#!">
+              <img
+                src="./image/icon/twitter.svg"
+                width="20"
+                height="20"
+                alt="twitter-icon" />
+            </a>
+            <a href="#!">
+              <img
+                src="./image/icon/linkedin.svg"
+                width="20"
+                height="20"
+                alt="linkedin-icon" />
+            </a>
+          </nav>
+
+          <div class="flex flex-col justify-between w-8 h-5 md:hidden">
+            <div class="w-full h-[2px] bg-black"></div>
+            <div class="w-full h-[2px] bg-black"></div>
+            <div class="w-full h-[2px] bg-black"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="bg-gray py-8 md:py-12 lg:py-[72px]">
+        <div class="container px-10">
+          <div
+            class="flex items-center flex-col-reverse lg:flex-row justify-center gap-8">
+            <div class="max-w-[354px] w-full">
+              <h1
+                class="sm:text-4xl text-dark-300 text-2xl lg:text-[60px] font-bold leading-6 sm:leading-10 lg:leading-[73px] lg:text-left text-center relative">
+                Make better coffee
+
+                <span class="hidden absolute top-16 lg:block right-16">
+                  <img
+                    src="./image/image/coffee.png"
+                    alt="coffee-icon" />
+                </span>
+              </h1>
+
+              <p
+                class="text-dark-200 text-xl sm:text-2xl sm:mt-4 text-center font-normal mt-2 lg:text-left">
+                why learn how to blog?
+              </p>
+            </div>
+            <div class="max-w-[476px] w-full">
+              <img
+                src="./image/image/hero-img.png"
+                class="w-full"
+                alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mt-10">
+        <div class="container">
+          <div class="2xl:w-full mx-auto flex flex-col-reverse md:flex-row items-center lg:max-w-[966px] justify-between rounded border-2 border-border">
+            <div class="w-full flex flex-col gap-4 lg:gap-[30px] p-5 sm:p-10">
+              <h2 class="text-2xl  sm:3xl text-dark-300 font-bold">
+                long established
+              </h2>
+              <p
+                class="text-dark-100 text-sm  leading-[17px]">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+                The point of using Lorem Ipsum is that....
+              </p>
+
+              <div class="flex items-center justify-between">
+                <span class="text-xs text-dark-100 font-normal"
+                  >May 20th 2020</span
+                >
+
+                <a
+                  href="#!"
+                  class="text-dark-300 text-xs font-bold"
+                  >Read more</a
+                >
+              </div>
+            </div>
+            <div class="w-full">
+              <img
+                class="block h-full w-full"
+                src="./image/image/articel-img.png"
+                alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="my-11">
+        <div class="container">
+          <div
+            class="flex flex-col sm:flex-row sm:flex-wrap items-center justify-center gap-5">
+            <div
+              class="bg-white rounded-[5px] shadow-200 max-w-[300px] w-full overflow-hidden">
+              <img
+                src="./image/image/card-img-1.png"
+                class="w-full h-[179px]"
+                alt="long established" />
+
+              <div class="pt-4 px-4 pb-6">
+                <h3 class="text-xl font-bold leading-6">long established</h3>
+                <p class="mt-4 text-sm font-normal leading-4 text-dark-100">
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                  The point of using Lorem Ipsum is that....
+                </p>
+
+                <div class="flex items-center justify-between mt-[22px]">
+                  <span class="text-dark-100 text-xs leading-4"
+                    >May 20th 2020</span
+                  >
+                  <a
+                    href="#!"
+                    class="text-dark-300 text-xs leading-4 font-bold"
+                    >Read more</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="bg-white rounded-[5px] shadow-200 max-w-[300px] w-full overflow-hidden">
+              <img
+                src="./image/image/card-img-2.png"
+                class="w-full h-[179px]"
+                alt="long established" />
+
+              <div class="pt-4 px-4 pb-6">
+                <h3 class="text-xl font-bold leading-6">long established</h3>
+                <p class="mt-4 text-sm font-normal leading-4 text-dark-100">
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                  The point of using Lorem Ipsum is that....
+                </p>
+
+                <div class="flex items-center justify-between mt-[22px]">
+                  <span class="text-dark-100 text-xs leading-4"
+                    >May 20th 2020</span
+                  >
+                  <a
+                    href="#!"
+                    class="text-dark-300 text-xs leading-4 font-bold"
+                    >Read more</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="bg-white rounded-[5px] shadow-200 max-w-[300px] w-full overflow-hidden">
+              <img
+                src="./image/image/card-img-3.png"
+                class="w-full h-[179px]"
+                alt="long established" />
+
+              <div class="pt-4 px-4 pb-6">
+                <h3 class="text-xl font-bold leading-6">long established</h3>
+                <p class="mt-4 text-sm font-normal leading-4 text-dark-100">
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                  The point of using Lorem Ipsum is that....
+                </p>
+
+                <div class="flex items-center justify-between mt-[22px]">
+                  <span class="text-dark-100 text-xs leading-4"
+                    >May 20th 2020</span
+                  >
+                  <a
+                    href="#!"
+                    class="text-dark-300 text-xs leading-4 font-bold"
+                    >Read more</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="w-full flex flex-col-reverse lg:flex-row  justify-center items-center bg-gray">
+            <div class="flex lg:w-[436px] text-center lg:text-left flex-col gap-3 md:gap-6 p-5 sm:px-10 md:px-16 lg:py-20 w-full">
+              <h2
+                class="text-2xl leading-6 lg:text-[40px] text-dark-300 font-bold lg:leading-[48px] w-full">
+                What is lorem ipsum?
+              </h2>
+              <p
+                class="text-base font-normal leading-5 text-dark-100 w-full lg:max-w-[311px]">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+                The point of using Lorem Ipsum is that it has a more-or-less
+                normal distribution...
+              </p>
+
+              <div class="flex items-center justify-center lg:justify-between gap-5 lg:max-w-[340px]">
+                <span class="text-base font-normal leading-5 text-dark-200"
+                  >May 20</span
+                >
+                <a
+                  href="#!"
+                  class="font-bold text-base leading-5"
+                  >Read more</a
+                >
+              </div>
+            </div>
+            <div class="max-w-[525px] w-full">
+              <img
+                src="./image/image/section-img.png"
+                class="w-full object-contain"
+                alt="" />
+            </div>
+          </div>
+
+          <button
+            type="button"
+            class="py-2 px-3 bg-violet text-white text-base font-bold rounded-[5px] flex items-center gap-2 mt-8 ml-auto">
+            See more
+            <span>
+              <img
+                src="./image/icon/arrow-down.svg"
+                width="20"
+                height="20"
+                alt="arrow-down-icon" />
+            </span>
+          </button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
