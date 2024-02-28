@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.relative {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    margin: 300px auto;
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition: 1s;
+}
+
+
+.relative:hover .absolute{
+    top: -200px;
+    left: -200px;
+}

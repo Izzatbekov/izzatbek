@@ -1,0 +1,74 @@
+@media(max-width: 900px ){
+    .header-logo{
+        font-size: 30px;
+        padding: 10px 14px;
+    }
+    .banner-info_title{
+        font-size: 60px;
+
+    }
+    .banner-info_subtitle{
+        font-size: 16px;
+    }
+    .banner-info_text{
+        font-size: 14px;
+    }
+    .price{
+        font-size: 35px;
+    }
+    .view-btn{
+        padding: 10px 55px;
+    }
+
+}
+@media(max-width: 768px){
+    .header-logo{
+        font-size: 26px;
+        padding: 10px 12px;
+        border-width: 2px; ;
+    }
+    .header-nav{
+        padding-block: 20px;
+    }
+}
+@media(max-width: 680px){
+    .header-nav{
+        display: none;
+    }
+    .burger-menu{
+        display: flex;
+    }
+    .header-top{
+        padding-block: 15px;
+    }
+    .banner{
+        height: 100%;
+    }
+}
+@media(max-width: 576px){
+  .header-logo{
+    font-size: 22px;
+        padding: 4px 10px;
+  }
+  .burger-menu{
+    margin-block: 14px;
+  }
+  .burger-top{
+    padding-block: 10px;
+  }
+  .header-nav_link{
+    font-size: 14px;
+  }
+}
+@media(max-width: 470px){
+.header-top_nav{
+    display: none;
+}
+.header-top_logo{
+    margin: 0 auto;
+}
+.header-logo{
+    font-size: 18px;
+    border-width: 1px;
+}
+}
